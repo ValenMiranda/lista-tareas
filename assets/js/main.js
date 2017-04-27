@@ -1,4 +1,4 @@
-var res = [
+var tareas = [
   {
     "userId": 1,
     "id": 1,
@@ -1202,7 +1202,7 @@ var res = [
 ];
 
 for (var i = 0; i < 10; i++) {
-	document.write('<ul>' + res[i].title + '</ul><br>');
+	document.write('<ul><li>' + tareas[i].title + '</li></ul>');
 }
 
-var tareasnuevas = [];
+
