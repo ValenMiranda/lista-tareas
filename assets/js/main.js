@@ -1202,7 +1202,16 @@ var tareas = [
 ];
 
 for (var i = 0; i < 10; i++) {
-	document.write('<ul><li>' + tareas[i].title + '</li></ul>');
+    document.write("<div><UL><li>" + res[i].title + "<br></li><UL></div>");
 }
+
+
+function mostrarTarea(){
+var tarea = document.getElementById("ingresartarea").value;
+
+document.getElementById('tareanueva').innerHTML += ("<div><li>" + tarea + "<br></li></div>");
+
+}
+
 
 
